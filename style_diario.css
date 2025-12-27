@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: auto;
+    text-align: left;
+    padding: 12px;
+}
+h1{
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+}   
+img {
+            border: 2px solid red;
+            margin-top: 20px; 
+        }
+        h2 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 20px;
+        }
+        li {
+            font-size: 18px;
+        }
+        a {
+            font-size: 20px;
+        }
+       .lado-a-lado {
+    display: flex;
+    justify-content: space-between;   
+    align-items: flex-start;         
+    gap: 20px;                        
+    width: 100%;                   
+}
