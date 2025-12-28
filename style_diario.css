@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f4f4f4;
     margin: auto;
     text-align: left;
@@ -7,18 +7,21 @@ body{
 }
 h1{
     font-size: 32px;
-    color: #333;
+    color: #000000;
     text-align: center;
     padding: 15px;
 }   
-img {
-            border: 2px solid red;
-            margin-top: 20px; 
-        }
+h2{
+    font-size: 10px;
+    color: #000000;
+    padding: 15px;
+}
+
         h2 {
             font-size: 25px;
         }
         p {
+             
             font-size: 20px;
         }
         li {
@@ -33,4 +36,8 @@ img {
     align-items: flex-start;         
     gap: 20px;                        
     width: 100%;                   
+}
+.lado-a-lado.imagem {
+   width: 400px;
+    height: auto;               
 }
